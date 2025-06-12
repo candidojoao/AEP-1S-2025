@@ -5,7 +5,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     }).addTo(map);
 
 const polos = [ 
-    {nome: 'Hospital Universitario Regional', lat:-23.401262477520326, lng:-51.956334971464294},
+    {nome: 'Hospital Universitario Regional', lat:-23.401262477520326, lng:-51.956334971464294, bikeQntd:5, patineteQntd:10},
     {nome: 'Praça 7 De Setembro', lat:-23.422821164418053, lng:-51.953299297139914},
     {nome: 'Estação Terminal Intermodal', lat:-23.418473, lng:-51.938098},
     {nome: 'Vila Olimpica', lat:-23.41243379629831, lng:-51.9380194302094},

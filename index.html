@@ -30,13 +30,31 @@
   <div style="overflow: hidden;">
     <div class="row pt-1">
       <div class="col-3">
-        <form class="d-flex mt-2" role="search">
+        <div class="row">
+          <form class="d-flex mt-2" role="search">
           <input type="search" aria-label="search" class="form-control ms-2 me-2 rounded-4" id="inputPesquisa" placeholder="Pesquisar ponto...">
           <button class="btn rounded-4" style="background-color: white;" type="button" id="botaoPesquisa" onclick="pesquisar()">
             <img src="images/search-icon.png" alt="search-icon" style="height: 20px; width: 20px;">
             <!-- <i class="bi bi-search"></i> !-->
           </button> 
         </form>
+        </div>
+        <div class="row me-2 ms-2" id="divDisplay" style="display: none;">
+          <div class="rounded-4 card" style="background-color: white;">
+            <div class="card-body">
+              <table class="table">
+                <thead id="tableHead">
+                  <tr>
+                    <th>Bicicletas</th>
+                    <th>Patinete</th>
+                  </tr>
+                </thead>
+                <tbody id="tabela">
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-6">
         <div class="row">
